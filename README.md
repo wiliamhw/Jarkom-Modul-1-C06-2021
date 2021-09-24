@@ -37,6 +37,8 @@ Jawab:
 Filter Expression: http.host == basic.ichimarumaru.tech
 ```
 Screenshot:  
+![3a](https://user-images.githubusercontent.com/68325900/134704558-d6c19268-fea0-4828-b813-b7a8c623e4f3.png)
+![3b](https://user-images.githubusercontent.com/68325900/134704589-e2bca362-7109-4d7f-9938-79b58a976d3d.png)
 
 
 ### 4. Temukan paket mysql yang mengandung perintah query select
@@ -56,6 +58,8 @@ Jawab:
 Filter Expression: mysql.query contains "INSERT"
 ```
 Screenshot:  
+![5a](https://user-images.githubusercontent.com/68325900/134704791-1e215f33-6541-442d-8282-3124c2b9e827.png)
+![5b](https://user-images.githubusercontent.com/68325900/134704810-b6df2af5-b29a-4967-9314-d001845d77fc.png)
 
 
 ### 6. Cari username dan password ketika melakukan login ke FTP Server!
