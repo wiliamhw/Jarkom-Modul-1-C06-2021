@@ -75,7 +75,7 @@ Filter Expression: ftp-data and frame contains "Real.pdf"
 1. Cari **Real.pdf** dengan filter expression di atas.
 2. Follow TCP Stream, ganti ASCII dengan Raw.
 3. Save as folder berformat zip.
-4. Buka folder  
+4. Buka **Real.pdf** di dalam folder.  
 
 Screenshot:  
 ![7a](https://user-images.githubusercontent.com/52129348/134644691-4b00ca58-6fc4-4f48-b93f-18718c1f40a1.png)
@@ -99,7 +99,7 @@ Filter Expression: ftp-data and ftp-data.command contains "secret.zip"
 1. Cari **secret.zip** dengan filter expression di atas.
 2. Follow TCP Stream, ganti ASCII dengan Raw.
 3. Save as folder berformat zip.
-4. Buka folder  
+4. Buka folder.  
 
 Screenshot:  
 ![9a](https://user-images.githubusercontent.com/52129348/134645080-812b0677-060e-4085-b356-53581fce9827.png)
@@ -107,7 +107,7 @@ Screenshot:
 ![9c](https://user-images.githubusercontent.com/52129348/134645102-a1a39ccf-1047-45a0-912b-ea0ab6748197.png)
 
 
-### 10. Selain itu terdapat "history.txt" yang kemungkinan berisi history bash server tersebut! Gunakan isi dari "history.txt" untuk menemukan password untuk membuka file rahasia yang ada di `secret.zip`!
+### 10. Selain itu terdapat `history.txt` yang kemungkinan berisi history bash server tersebut! Gunakan isi dari `history.txt` untuk menemukan password untuk membuka file rahasia yang ada di `secret.zip`!
 Jawab:  
 ```
 Filter Expression:
@@ -119,6 +119,7 @@ ftp-data and ftp-data.command contains "bukanapaapa.txt"
 3. Simpan password pada **bukanapaapa.txt**, yaitu berupa `d1b1langbukanapapajugagapercaya`.
 4. Buka folder yang didapat pada nomor 9.
 5. Masukan password untuk mengekstrak folder tersebut. 
+6. Buka file didalam folder tersebut.  
 
 Screenshot:  
 ![10a](https://user-images.githubusercontent.com/52129348/134646222-3b17e8c4-3b7c-4f0d-a706-8602b5f22861.png)
