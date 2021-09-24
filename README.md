@@ -72,6 +72,11 @@ Jawab:
 ```
 Filter Expression: ftp-data and frame contains "Real.pdf"
 ```
+1. Cari **Real.pdf** dengan filter expression di atas.
+2. Follow TCP Stream, ganti ASCII dengan Raw.
+3. Save as folder berformat zip.
+4. Buka folder  
+
 Screenshot:  
 ![7a](https://user-images.githubusercontent.com/52129348/134644691-4b00ca58-6fc4-4f48-b93f-18718c1f40a1.png)
 ![7b](https://user-images.githubusercontent.com/52129348/134644747-dd2570f7-c917-400e-a242-76ee5434a2ba.png)
@@ -84,14 +89,18 @@ Filter Expression: ftp-data.command == RETR
 ```
 Screenshot:  
 ![8](https://user-images.githubusercontent.com/52129348/134644909-687efc2f-d707-47a8-a8b7-1303cd0a59a7.png)  
-Command untuk mengembalikan file adalah `RETR`. Namun, pada kasus ini, sepertinya tidak ada data yang dikembalikan.  
-
+Command untuk mengembalikan file adalah `RETR`. Namun, pada kasus ini, sepertinya tidak ada data yang dikembalikan.   
 
 ### 9. Dari paket-paket yang menuju FTP terdapat indikasi penyimpanan beberapa file. Salah satunya adalah sebuah file berisi data rahasia dengan nama `secret.zip`. Simpan dan buka file tersebut!
 Jawab:  
 ```
 Filter Expression: ftp-data and ftp-data.command contains "secret.zip"
 ```
+1. Cari **secret.zip** dengan filter expression di atas.
+2. Follow TCP Stream, ganti ASCII dengan Raw.
+3. Save as folder berformat zip.
+4. Buka folder  
+
 Screenshot:  
 ![9a](https://user-images.githubusercontent.com/52129348/134645080-812b0677-060e-4085-b356-53581fce9827.png)
 ![9b](https://user-images.githubusercontent.com/52129348/134645093-1aba71a8-e9cd-4f46-a914-805438bcd890.png)
@@ -105,6 +114,12 @@ Filter Expression:
 ftp-data and ftp-data.command contains "history.txt", 
 ftp-data and ftp-data.command contains "bukanapaapa.txt"
 ```
+1. Cari **history.txt** dengan filter expression di atas, kemudian buka packet tersebut.
+2. Cari **bukanapaapa.txt** dengan filter expression di atas, kemudian buka packet tersebut.
+3. Simpan password pada **bukanapaapa.txt**, yaitu berupa `d1b1langbukanapapajugagapercaya`.
+4. Buka folder yang didapat pada nomor 9.
+5. Masukan password untuk mengekstrak folder tersebut. 
+
 Screenshot:  
 ![10a](https://user-images.githubusercontent.com/52129348/134646222-3b17e8c4-3b7c-4f0d-a706-8602b5f22861.png)
 ![10b1](https://user-images.githubusercontent.com/52129348/134646245-674a4042-4f89-4f92-8a27-d45c2dbeee11.png)
