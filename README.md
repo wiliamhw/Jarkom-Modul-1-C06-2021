@@ -25,7 +25,10 @@ Filter Expression: http.authbasic
 Filter Expression: http.request.uri contains "login"
 ```
 Screenshot:  
-
+![2a](https://user-images.githubusercontent.com/68325900/134654242-e329b6b4-5541-4d6d-b2b2-8de000c43192.png)
+![2b](https://user-images.githubusercontent.com/68325900/134654416-d36a1b52-028a-4751-b1e1-e6bf9fabc778.png)
+![2c](https://user-images.githubusercontent.com/68325900/134654450-cc43ad3f-708f-4f8e-8baf-cd46d243ee26.png)
+![2d](https://user-images.githubusercontent.com/68325900/134654532-d9a2c092-d87b-4724-987d-92d1e2737924.png)
 
 
 ### 3. Ikuti perintah di basic.ichimarumaru.tech! Username dan password bisa didapatkan dari file .pcapng!
@@ -42,6 +45,9 @@ Jawab:
 Filter Expression: mysql.query contains "select" || mysql.query contains "SELECT"
 ```
 Screenshot:  
+![4a](https://user-images.githubusercontent.com/68325900/134654754-5e4bf6cc-afd9-4c92-90cf-e2802861411f.png)
+![4b](https://user-images.githubusercontent.com/68325900/134654791-f9c3dd77-8504-40e6-b033-0a5e8cd336b5.png)
+![4c](https://user-images.githubusercontent.com/68325900/134654804-449fd747-81ef-4cee-aaf3-d4b7c81a5755.png)
 
 
 ### 5. Login ke portal.ichimarumaru.tech kemudian ikuti perintahnya! Username dan password bisa didapat dari query insert pada table users dari file .pcap!
