@@ -125,3 +125,69 @@ Screenshot:
 ![10a](https://user-images.githubusercontent.com/52129348/134646222-3b17e8c4-3b7c-4f0d-a706-8602b5f22861.png)
 ![10b1](https://user-images.githubusercontent.com/52129348/134646245-674a4042-4f89-4f92-8a27-d45c2dbeee11.png)
 ![10c](https://user-images.githubusercontent.com/52129348/134646261-4eca80c5-8ee4-40ec-b799-803eebf0b996.png)
+
+### 11. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80! 
+
+Jawab:
+```
+src port 80
+```
+1. Gunakan filter src port 80 capture pada awal menu wireshark
+2. Kemudian pilih jaringan yg ingin dicoba
+3. Coba untuk menguji package dengan mengakses web dengan http
+Screenshot:
+![no11](https://user-images.githubusercontent.com/55136116/134695641-95df5529-8d3b-44b3-9024-4f744c4c11cb.png)
+
+### 12. Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
+
+Jawab:
+```
+dst port 21
+```
+1. Gunakan filter dst port 21 capture pada awal menu wireshark
+2. Kemudian pilih jaringan Adaptive for loopback untuk menguji sever di local
+3. Buka xampp dan aktifkan FileZilla server
+4. Buka FileZilla client
+5. Coba akses melalui local server port 21 menggunakan FileZilla client ke server
+Screenshot:
+![no12](https://user-images.githubusercontent.com/55136116/134696376-038ae1e8-e3a2-4b2d-8469-6fb11dacb0de.png)
+
+### 13. Filter sehingga wireshark hanya menampilkan paket yang menuju port 443! 
+
+Jawab:
+```
+dst port 443
+```
+1. Gunakan filter capture dst port 443 pada awal menu wireshark
+2. Kemudian pilih jaringan yg ingin dicoba
+3. Coba untuk menguji package dengan mengakses web dengan https
+Screenshot:
+![no13](https://user-images.githubusercontent.com/55136116/134696488-3da3491c-08e4-40d2-8935-4665bff7234a.png)
+
+
+### 14. Filter sehingga wireshark hanya mengambil paket yang tujuannya ke kemenag.go.id! 
+
+Jawab:
+```
+ip.dst == 103.7.13.247
+```
+1. Pilih jaringan wifi/internet yang ada
+2. Cari ip dari domain website menggunakan ping di cmd
+3. Gunakan capture filter ip.dst == 103.7.13.247 (ip tersebut merupakan ip dari domain website)
+Screenshot:
+![no14](https://user-images.githubusercontent.com/55136116/134696541-ca4f8489-5f5b-4828-83b2-d41de649c96f.png)
+
+
+
+### 15. Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian! 
+
+Jawab:
+```
+ip.src == 192.168.100.8
+```
+1. Buka cmd dan caru ip laptop kalian di cmd menggunakan ipconfig (IPv4)
+2. Pilih jaringan wifi/internet yang ada
+3. Cobb akses internet menggunakan aplikasi apapun
+4. Gunakan capture filter ip.src == 192.168.100.8 (ip tersebut merupakan ip perangkat saya)
+Screenshot:
+![no15](https://user-images.githubusercontent.com/55136116/134696585-56a13e3e-d62a-4bd8-9366-826533be9355.png)
