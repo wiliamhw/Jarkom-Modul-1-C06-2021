@@ -135,6 +135,7 @@ src port 80
 1. Gunakan filter src port 80 capture pada awal menu wireshark
 2. Kemudian pilih jaringan yg ingin dicoba
 3. Coba untuk menguji package dengan mengakses web dengan http
+
 Screenshot:
 ![no11](https://user-images.githubusercontent.com/55136116/134695641-95df5529-8d3b-44b3-9024-4f744c4c11cb.png)
 
@@ -149,6 +150,7 @@ dst port 21
 3. Buka xampp dan aktifkan FileZilla server
 4. Buka FileZilla client
 5. Coba akses melalui local server port 21 menggunakan FileZilla client ke server
+
 Screenshot:
 ![no12](https://user-images.githubusercontent.com/55136116/134696376-038ae1e8-e3a2-4b2d-8469-6fb11dacb0de.png)
 
@@ -161,6 +163,7 @@ dst port 443
 1. Gunakan filter capture dst port 443 pada awal menu wireshark
 2. Kemudian pilih jaringan yg ingin dicoba
 3. Coba untuk menguji package dengan mengakses web dengan https
+
 Screenshot:
 ![no13](https://user-images.githubusercontent.com/55136116/134696488-3da3491c-08e4-40d2-8935-4665bff7234a.png)
 
@@ -174,6 +177,7 @@ ip.dst == 103.7.13.247
 1. Pilih jaringan wifi/internet yang ada
 2. Cari ip dari domain website menggunakan ping di cmd
 3. Gunakan capture filter ip.dst == 103.7.13.247 (ip tersebut merupakan ip dari domain website)
+
 Screenshot:
 ![no14](https://user-images.githubusercontent.com/55136116/134696541-ca4f8489-5f5b-4828-83b2-d41de649c96f.png)
 
@@ -189,5 +193,6 @@ ip.src == 192.168.100.8
 2. Pilih jaringan wifi/internet yang ada
 3. Cobb akses internet menggunakan aplikasi apapun
 4. Gunakan capture filter ip.src == 192.168.100.8 (ip tersebut merupakan ip perangkat saya)
+
 Screenshot:
 ![no15](https://user-images.githubusercontent.com/55136116/134696585-56a13e3e-d62a-4bd8-9366-826533be9355.png)
