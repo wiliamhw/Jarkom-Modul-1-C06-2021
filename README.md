@@ -17,6 +17,41 @@ Screenshot:
 ![1b](https://user-images.githubusercontent.com/52129348/134642762-8c16b487-547b-4241-914c-1295fc4992cb.png)
 
 
+
+### 2. Temukan paket dari web-web yang menggunakan basic authentication method!
+Jawab:  
+```
+Filter Expression: http.authbasic
+Filter Expression: http.request.uri contains "login"
+```
+Screenshot:  
+
+
+
+### 3. Ikuti perintah di basic.ichimarumaru.tech! Username dan password bisa didapatkan dari file .pcapng!
+Jawab:  
+```
+Filter Expression: http.host == basic.ichimarumaru.tech
+```
+Screenshot:  
+
+
+### 4. Temukan paket mysql yang mengandung perintah query select
+Jawab:  
+```
+Filter Expression: mysql.query contains "select" || mysql.query contains "SELECT"
+```
+Screenshot:  
+
+
+### 5. Login ke portal.ichimarumaru.tech kemudian ikuti perintahnya! Username dan password bisa didapat dari query insert pada table users dari file .pcap!
+Jawab:  
+```
+Filter Expression: mysql.query contains "INSERT"
+```
+Screenshot:  
+
+
 ### 6. Cari username dan password ketika melakukan login ke FTP Server!
 Jawab:  
 ```
