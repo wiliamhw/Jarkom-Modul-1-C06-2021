@@ -42,7 +42,7 @@ Jawab:
 Filter Expression: ftp-data.command == RETR
 ```
 Screenshot:  
-![8](https://user-images.githubusercontent.com/52129348/134644909-687efc2f-d707-47a8-a8b7-1303cd0a59a7.png)
+![8](https://user-images.githubusercontent.com/52129348/134644909-687efc2f-d707-47a8-a8b7-1303cd0a59a7.png)  
 Command untuk mengembalikan file adalah `RETR`. Namun, pada kasus ini, sepertinya tidak ada data yang dikembalikan.  
 
 
