@@ -12,6 +12,9 @@ Jawab:
 nginx/1.18.0 (Ubuntu)
 Filter Expression: http.host == "ichimarumaru.tech"
 ```
+1. Cari HTTP dengan filter expression di atas.
+2. Follow TCP Stream.
+3. Cari nama Server(yang berupa:nginx/1.18.0 (Ubuntu))
 Screenshot:  
 ![1a](https://user-images.githubusercontent.com/52129348/134642662-80dc0d62-4cde-4ded-b3e9-30c9ad8fbaed.png)
 ![1b](https://user-images.githubusercontent.com/52129348/134642762-8c16b487-547b-4241-914c-1295fc4992cb.png)
@@ -24,6 +27,8 @@ Jawab:
 Filter Expression: http.authbasic
 Filter Expression: http.request.uri contains "login"
 ```
+1. Cari HTTP dengan filter expression di atas.
+2. Buka file lalu pilih export objects HTTP untuk melihat datanya
 Screenshot:  
 ![2a](https://user-images.githubusercontent.com/68325900/134654242-e329b6b4-5541-4d6d-b2b2-8de000c43192.png)
 ![2b](https://user-images.githubusercontent.com/68325900/134654416-d36a1b52-028a-4751-b1e1-e6bf9fabc778.png)
@@ -36,6 +41,24 @@ Jawab:
 ```
 Filter Expression: http.host == basic.ichimarumaru.tech
 ```
+1. Cari HTTP dengan filter expression di atas.
+2. Cari Credentials di file http.
+```
+username: kuncimenujulautan
+password: tQKEJFbgNGC1NCZlWAOjhyCOm6o3xEbPkJhTciZN
+```
+3. Buka basic.ichimarumaru.tech lalu login dengan username dan password yang telah ditemukan.
+4. Setelah itu, sebutkan urutan konfigurasi pengkabelan T568A
+```
+1. putih-hijau
+2. hijau
+3. putih-oranye
+4. biru
+5. putih-biru
+6. oranye
+7. putih-coklat
+8. coklat
+```
 Screenshot:  
 ![3a](https://user-images.githubusercontent.com/68325900/134704558-d6c19268-fea0-4828-b813-b7a8c623e4f3.png)
 ![3b](https://user-images.githubusercontent.com/68325900/134704589-e2bca362-7109-4d7f-9938-79b58a976d3d.png)
@@ -46,6 +69,8 @@ Jawab:
 ```
 Filter Expression: mysql.query contains "select" || mysql.query contains "SELECT"
 ```
+1. Cari query mysql dengan filter expression di atas.
+2. Bisa dilihat paket-paket tersebut.
 Screenshot:  
 ![4a](https://user-images.githubusercontent.com/68325900/134654754-5e4bf6cc-afd9-4c92-90cf-e2802861411f.png)
 ![4b](https://user-images.githubusercontent.com/68325900/134654791-f9c3dd77-8504-40e6-b033-0a5e8cd336b5.png)
@@ -56,6 +81,20 @@ Screenshot:
 Jawab:  
 ```
 Filter Expression: mysql.query contains "INSERT"
+```
+1. Cari query mysql dengan filter expression di atas.
+2. Cari Request Command Query yang berupa insert untuk mencari username dan password.
+3. Buka portal.ichimarumaru.tech lalu login dengan username dan password yang telah ditemukan.
+4. Setelah itu, sebutkan urutan konfigurasi pengkabelan T568B
+```
+1. putih-oranye
+2. oranye
+3. putih-hijau
+4. biru
+5. putih-biru
+6. hijau
+7. putih-coklat
+8. coklat
 ```
 Screenshot:  
 ![5a](https://user-images.githubusercontent.com/68325900/134704791-1e215f33-6541-442d-8282-3124c2b9e827.png)
